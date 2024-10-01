@@ -53,7 +53,7 @@ nav {
 .menu a {
     color: white;
     text-decoration: none;
-    font-size: 20px; /* Font size */
+    font-size: 24px; /* Font size */
     font-weight: 700; /* Bold text */
 }
 
@@ -61,24 +61,32 @@ nav {
     top: -90px;
     left: -90px;
     border-top-left-radius: 0;
+    border-style: solid;
+    border-color: black;
 }
 
 .top-right {
     top: -90px;
     right: -90px;
     border-top-right-radius: 0;
+    border-style: solid;
+    border-color: black;
 }
 
 .bottom-left {
     bottom: -90px;
     left: -90px;
     border-bottom-left-radius: 0;
+    border-style: solid;
+    border-color: black;
 }
 
 .bottom-right {
     bottom: -90px;
     right: -90px;
     border-bottom-right-radius: 0;
+    border-style: solid;
+    border-color: black;
 }
 
 .rotate-left-home {
@@ -117,6 +125,8 @@ nav {
     border-radius: 10px;
     position: relative;
     z-index: 1; /* Ensure container is behind menu */
+    border-style: solid;
+    border-color: black;
 }
 
 @keyframes containerGradientAnimation {
